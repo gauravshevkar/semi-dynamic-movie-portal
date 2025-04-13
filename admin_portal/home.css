@@ -1,0 +1,14 @@
+table {
+    margin-top: 30px;
+}
+.btn-danger {
+    margin: 0;
+}
+
+.search{
+    margin-bottom: 15px;
+     width: 300px;
+    position: relative;
+    left: 30%;
+   width: 500px;
+    }

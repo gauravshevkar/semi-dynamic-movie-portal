@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+    color: #fff;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    background: #25252b;
+}
+.container{
+    position: relative;
+    top: 100px;
+    width: 750px;
+    height: 450px;
+    border: 2px solid #008BDC;
+    box-shadow: 0 0 25px #008BDC;
+    overflow: hidden;
+}
+.container .form-box{
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.form-box .Login{
+    left: 0;
+    padding: 0px 40px;
+}
+.signup{
+    position: relative;
+    top: -10px;
+}
+.form-box h2{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 40px;
+
+
+}
+.form-box .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-top: 25px;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    border-bottom: 2px solid #fff;
+    padding-right: 23px;
+    transition: .5s;
+}
+.input-box input:focus,
+.input-box input:valid{
+    border-bottom: 2px solid #fff;
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #fff;
+    transition: .5s;
+}
+.input-box input:focus ~ label,
+.input-box input:valid ~ label{
+    top: -5px;
+    color: #008BDC;
+}
+.input-box i{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    font-size: 18px;
+    transform: translateY(-50);
+    transition: .5s;
+}
+.input-box input:focus ~ i,
+.input-box input:valid ~ i{
+    top: -5px;
+     color: #008BDC;
+}
+.btn{
+    position: relative;
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    border-radius: 40px;
+  cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid #008BDC;
+    overflow: hidden;
+    z-index: 1;
+
+
+}  
+.btn::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 300%;
+    background: linear-gradient(#25252b,#008BDC,#25252b,#008BDC);
+    top: -90%;
+    left: 0;
+    z-index: -1;
+    transition:  .5s;
+
+}  
+
+.signup_btn{
+    position: relative;
+    top: -20px;
+}
+.btn:hover::before{
+    top: 0;
+}   
+.regi-link{
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 30px 10px;
+    display: flex;
+}  
+.regi-link a{
+    text-decoration: none;
+    color: #008BDC;
+    font-weight: 600;
+}  
+.regi-link a:hover{
+    text-decoration: underline;
+}  
+.info-content{
+  
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}    
+.info-content{
+    /* position: relative;
+    right: 0; */
+    text-align: right;
+    padding: 0 40px 60px 150px;
+}  
+.info-content h2{
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 1.3;
+
+}  
+.info-content p{
+    font-size: 16px;
+
+}
+.container .curved-shape{
+    position: absolute;
+    right: 0;
+    top: -5px;
+    height: 600px;
+    width: 850px;
+    background: linear-gradient(45deg, #25252b,#008BDC);
+    transform: rotate(10deg) skewY(40deg);
+    transform-origin: bottom right;
+} 
+.User_Type,option{
+    color: rgb(250, 249, 249);
+    background-color: #25252b;
+}
+
+/* guest login css  */
+.guest{
+    margin-left: 10px;
+    position: relative;
+    background: transparent;
+    border-radius: 40px;
+  cursor: pointer;
+    border: 2px solid #008BDC;
+    overflow: hidden;
+    z-index: 1;
+    padding: 0px 8px;
+}
+.guest::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 300%;
+    background: linear-gradient(#25252b,#008BDC,#25252b,#008BDC);
+    top: -90%;
+    left: 0;
+    z-index: -1;
+    transition:  .5s;
+}  
+.guest:hover::before{
+    top: 0;
+}
+.regi-link{
+    display: flex;
+}
+.log-link{
+    position: relative;
+    top: -25px;
+}

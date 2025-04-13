@@ -1,0 +1,82 @@
+[    {
+    "id":5,
+    "title": "Saaree",
+    "imdb": "N/A",
+    "date": "04-04-2025",
+    "language": "Telugu,Hindi,Tamil,Malayalam",
+    "paragraph":"A Guy On A Holiday With His Friends Spots A Girl In A SAAREE. He Gets So Obsessed With Her That Upon Facing Rejection, He Turns Extremely Dangerous. He Wants To Have Her ONLY For Himself By Hook Or Crook.",
+    "poster": "../movie_data/saaree.jpg",
+    "mainbanner":"https://www.businessoftollywood.com/wp-content/uploads/2025/02/saree-1.jpg",
+    "genre": "Crime, Thriller",
+    "type": "Movie",
+    "duration": "2h 24min",
+    "url": "",
+    "trailer": "https://www.youtube.com/embed/Ij0bCFyjpoc"
+    
+    },
+    {
+        "id":4,
+        "title": "Nimde Kathe",
+        "imdb": "N/A",
+        "date": "04-04-2025",
+        "language": "Kannada",
+        "paragraph":"Nimde Kathe film is a Lighthearted Heart-wrenching story. Vikram, an insurance manager, faces a mix of hilarious and serious situations brought on by his own decisions, pushing him to move forward in life..",
+        "poster": "../movie_data/Nimde Kathe.webp",
+        "mainbanner":"https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/medium/nimde-kathe-et00438224-1742388453.jpg",
+        "genre": "Comedy Drama Family",
+        "type": "Movie",
+        "duration": "2h 24min",
+        "url": "",
+        "trailer": "https://www.youtube.com/embed/ygKer8_bIYc"
+        
+    },
+    {
+        "id":3,
+        "title": "The Raja Saab",
+        "imdb": "N/A",
+        "date": "10-04-2025",
+        "language": " Hindi, Telugu",
+        "paragraph":"A young heir embraces both his royal heritage and rebellious spirit as he rises to power, establishing unprecedented rules during his reign as Raja Saab.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOWM0YTlmZjEtOTA5ZC00MmY0LTk4NjgtNGUyYjAzZTk3ZmMxXkEyXkFqcGc@._V1_.jpg",
+        "mainbanner":"https://industryhit.com/t/wp-content/uploads/2024/07/IMG_4319-696x391.jpeg",
+        "genre": "Comedy, Horror, Romantic",
+        "type": "Movie",
+        "duration": "2h 10min",
+        "url": "",
+        "trailer": "https://www.youtube.com/embed/GQMPRvIjadA"
+        
+    },
+    {
+        "id":2,
+        "title": "Jaat ",
+        "imdb": "N/A",
+        "date": "10-04-2025",
+        "language": " Hindi",
+        "paragraph":"aat is an upcoming Indian Hindi-language action thriller film written and directed by Gopichand Malineni (in his Hindi debut), and produced by Mythri Movie Makers and People Media Factory",
+        "poster": "https://upload.wikimedia.org/wikipedia/en/0/0b/Jaat_film_poster.jpg",
+        "mainbanner":"https://www.bollywoodhungama.com/wp-content/uploads/2024/06/Jaat-1.jpg",
+        "genre": "Action, Drama",
+        "type": "Movie",
+        "duration": "2h 30min",
+        "url": "",
+        "trailer": "https://www.youtube.com/embed/rAXxdaU-xeo"
+        
+    },
+    {
+        "id":1,
+        "title": "alice in borderland season 3",
+        "imdb": "N/A",
+        "date": "Sep-2025",
+        "language": "English-subtitles",
+        "paragraph":"Alice in Borderland Season 3, confirmed by Netflix, will see Arisu and Usagi return to the real world, potentially facing new challenges and exploring the origins of Borderland, with the Joker card hinted to play a significant role. ",
+        "poster": "../movie_data/alice in borderland.jpg",
+        "mainbanner":"https://images.herzindagi.info/her-zindagi-english/images/2025/02/13/article/image/Main---2025-02-13T133925.969-1739434183820.jpg",
+        "genre": "science fiction, thriller, drama",
+        "type": "Series",
+        "duration": "Season 3",
+        "url": "",
+        "trailer": "https://www.youtube.com/embed/56D0bTe3fkc"
+        
+    }
+   
+]
