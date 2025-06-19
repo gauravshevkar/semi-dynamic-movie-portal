@@ -49,7 +49,7 @@ if ($_SESSION['user_name'] === "Guest") {
     <link rel="stylesheet" href="../css/contact_us.css">
     <link rel="stylesheet" href="../css/navbar.css">
 </head>
-<body>
+<body class="nav-open">
 
     <!-- NAV SATART -->
 
@@ -65,7 +65,7 @@ if ($_SESSION['user_name'] === "Guest") {
                 <a href="./about.php" class="nav-menu">About</a>
                 <a href="#" class="nav-menu">Contact</a>
                 <!--User Profile Button and Guest Time start -->
-                <span class="nav-menu"><i class="bi bi-person-circle" class="profile-btn" onclick="toggleProfile()"></i></span>
+                <span class="nav-menu"><i class="bi bi-person-circle profile-btn"  onclick="toggleProfile()"></i></span>
                 <p id="guest-timer" style="color: red; font-weight: bold;"></p>
                 <!--User Profile Button and Guest Time ENd -->
               </div>

@@ -52,8 +52,21 @@ if ($_SESSION['user_name'] === "Guest") {
     <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
+
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HYDNV6M2LW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HYDNV6M2LW');
+</script>
+
+
+
 </head>
-<body>
+<body class="nav-open">
     <header>
       <div class="main-banner-container" id="banner"></div>
         <!-- <img src="https://wallpapers.com/images/featured/money-heist-segtwbhffwy01w82.jpg" alt="" class="index-banner" id="banner" > -->
@@ -69,7 +82,7 @@ if ($_SESSION['user_name'] === "Guest") {
                   <a href="./about.php" class="nav-menu">About</a>
                   <a href="./contact.php" class="nav-menu">Contact</a>
                   <a href="#" class="nav-menu" class="search_user">
-                      <input type="text" placeholder="Search..." id="search_input" >
+                      <input type="text" placeholder="Search..." id="search_input" class="search_box" >
                       <svg xmlns="http://www.w3.org/2000/svg" style="margin-left: 7px;" x="0px" y="0px" width="15px" height="15px" viewBox="0,0,256,256">
                           <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M21,3c-9.39844,0 -17,7.60156 -17,17c0,9.39844 7.60156,17 17,17c3.35547,0 6.46094,-0.98437 9.09375,-2.65625l12.28125,12.28125l4.25,-4.25l-12.125,-12.09375c2.17969,-2.85937 3.5,-6.40234 3.5,-10.28125c0,-9.39844 -7.60156,-17 -17,-17zM21,7c7.19922,0 13,5.80078 13,13c0,7.19922 -5.80078,13 -13,13c-7.19922,0 -13,-5.80078 -13,-13c0,-7.19922 5.80078,-13 13,-13z"></path></g></g>
                       </svg>
@@ -88,7 +101,7 @@ if ($_SESSION['user_name'] === "Guest") {
                       <!-- SEARCH CONTAINER END     -->
                   </a>
                   <!--User Profile Button and Guest Time start -->
-                  <span class="nav-menu"><i class="bi bi-person-circle" class="profile-btn" onclick="toggleProfile()"></i> </span>
+                  <span class="nav-menu"><i class="bi bi-person-circle profile-btn"  onclick="toggleProfile()"></i> </span>
                   <span> <p id="guest-timer" style="color: red; font-weight: bold;"></p></span>
                   <!--User Profile Button and Guest Time start -->
                 </nav>
@@ -234,17 +247,20 @@ if ($_SESSION['user_name'] === "Guest") {
 
     <div class="box">
       <h2>Explore</h2>
-      <div class="flex">
+      <div class="flex2">
         <ul>
           <li>Home</li>
           <li>Tv Shows</li>
           <li>Actors</li>
-          <li>Celebrity</li>
         </ul>
         <ul class="ul">
           <li>Movie</li>
           <li>Video</li>
           <li>Basketball</li>
+          
+        </ul>
+        <ul class="ul">
+          <li>Celebrity</li>
           <li>Coress</li>
         </ul>
       </div>
@@ -252,7 +268,7 @@ if ($_SESSION['user_name'] === "Guest") {
 
     <div class="box">
       <h2>Company</h2>
-      <div class="flex">
+      <div class="flex2">
         <ul>
           <li>Company</li>
           <li>Terms of Use</li>

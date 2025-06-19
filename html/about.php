@@ -47,7 +47,7 @@
    
 
 </head>
-<body>
+<body class="nav-open">
     <header>
         <!-- <video src="./asset/theboys.webm" autoplay muted style="margin-top: 370px;"></video> -->
         <nav>
@@ -61,7 +61,7 @@
                 <a href="#" class="nav-menu">About</a>
                 <a href="./contact.php" class="nav-menu">Contact</a>
                 <a href="#" class="nav-menu" class="search_user">
-                    <input type="text" placeholder="Search..." id="search_input" >
+                    <input type="text" placeholder="Search..." id="search_input" class="search_box">
                     <svg xmlns="http://www.w3.org/2000/svg" style="margin-left: 7px;" x="0px" y="0px" width="15px" height="15px" viewBox="0,0,256,256">
                         <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M21,3c-9.39844,0 -17,7.60156 -17,17c0,9.39844 7.60156,17 17,17c3.35547,0 6.46094,-0.98437 9.09375,-2.65625l12.28125,12.28125l4.25,-4.25l-12.125,-12.09375c2.17969,-2.85937 3.5,-6.40234 3.5,-10.28125c0,-9.39844 -7.60156,-17 -17,-17zM21,7c7.19922,0 13,5.80078 13,13c0,7.19922 -5.80078,13 -13,13c-7.19922,0 -13,-5.80078 -13,-13c0,-7.19922 5.80078,-13 13,-13z"></path></g></g>
                     </svg>
@@ -78,7 +78,7 @@
                     <!-- SEARCH CONTAINER END     -->
                 </a>
                 <!--User Profile Button and Guest Time start -->
-                <a href="#" class="nav-menu"><i class="bi bi-person-circle" class="profile-btn" onclick="toggleProfile()"></i></a>
+                <a href="#" class="nav-menu"><i class="bi bi-person-circle profile-btn"  onclick="toggleProfile()"></i></a>
                 <p id="guest-timer" style="color: red; font-weight: bold;"></p>
                 <!--User Profile Button and Guest Time End -->
               </nav>
