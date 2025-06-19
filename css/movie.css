@@ -113,7 +113,7 @@ section{
     width: 100%;
     height: auto;
     color: #fff;
-    padding: 0px 0px 0px 35px;
+    padding: 0px 0px 0px 45px;
     top: 90px;
   }
 
@@ -129,9 +129,7 @@ section{
     /* overflow-x: auto; */
     scroll-behavior: smooth;
   }
-  section .cards::-webkit-scrollbar{
-  /* display: none; */
-  }
+
   section .cards .card{
     position: relative;
     min-width: 150px;
@@ -161,7 +159,7 @@ section{
     border-radius: 8px;
     top: 0;
     left: 0;
-    z-index: 999999;
+    z-index: 9;
     opacity: 0;
     transition: 1s linear;
   }
@@ -196,11 +194,29 @@ section{
     padding: 0px 20px;
   
   }
-  section .cards .card .rest_card .container_detail .sub{
+  /* section .cards .card .rest_card .container_detail .sub{
     display: flex;
     align-items: center;
     justify-content: space-between;
+  } */
+  .sub p {
+    float: left;
   }
+  
+  .sub h3 {
+    float: right;
+  }
+  
+  .sub::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+
+
+
   section .cards .card .rest_card .container_detail .sub p{
     font-size: 12px;
     font-weight: 400;
@@ -227,7 +243,15 @@ section{
   section .cards .card:hover .rest_card {
     opacity: 1;
   }
+  @media(max-width:767px){
+    section{
+      padding: 0px 0px 0px 8px;
+      top: 90px;
+      width: 104%;
+    }
   
+
+  }
   
   
   
@@ -245,8 +269,8 @@ section{
   padding: 0 15px;
   position: fixed;
   top: 65px;
-  right: 0;
-  z-index: 9999999999;
+  right: 0px;
+  z-index: 9;
 }
 
 .collapse-box.open {

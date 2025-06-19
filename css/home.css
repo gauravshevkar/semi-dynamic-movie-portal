@@ -228,12 +228,12 @@ header .container .btns a{
   }
  
 }
-@media (max-width: 768px) {
+@media (max-width: 740px) {
   .search{
     position: absolute;
     /* border: 1px solid #fff; */
-    left: 5px;
-    top: 270px;
+    left: 10px;
+    top: 320px;
   
   }
   .collapse-box {
@@ -241,6 +241,46 @@ header .container .btns a{
     position: absolute;
     
     
+  }
+  .main-banner-container img{
+    height: 300px;
+    border-radius: 20px;
+  }
+  header{
+    height: 300px;
+  }
+  header::after {
+    height: 285px;
+  }
+ header .container h1{
+    font-size: 18px;
+  }
+  header .container .details h5 {
+    font-size: 9px;
+  }
+  header .container .details h4 {
+    font-size: 7px;
+  }
+  header .container .details h3 {
+    font-size: 7px;
+  }
+  header .container{
+    margin-top: 90px;
+    padding-left: 15px;
+    width: 200px;
+  }
+  header .container .details{
+    width: 150px;
+    flex-wrap: wrap; 
+  }
+  header .container p{
+    font-size: 5px;
+    width: 180px;
+  }
+  header .container .btns a{
+    padding: 6px 10px;
+    font-size: 10px;
+    font-weight: 500;
   }
 }
 /* header end  */
@@ -313,7 +353,7 @@ section .cards .card .rest_card{
   border-radius: 8px;
   top: 0;
   left: 0;
-  z-index: 999999;
+  z-index: 9;
   opacity: 0;
   transition: 1s linear;
 }
@@ -394,7 +434,7 @@ section  .bi-chevron-left, .bi-chevron-right{
   font-size: 12px;
   cursor: pointer;
   transition: 1s linear;
-  z-index: 9999999999999;
+  z-index: 9;
   opacity: 0;
 }
 section .bi-chevron-right{
@@ -407,6 +447,20 @@ section:hover .bi-chevron-right{
 section:hover .bi-chevron-left{
   opacity: 1;
 }
+@media (max-width: 740px) {
+  section .head-card h2{
+    font-size: 1em;
+  }
+  section{
+    padding: 0px 5px;
+  }
+  section .head-card a{
+    font-size: 0.5em;
+    padding: 2.5px 4px;
+
+  }
+}
+
 /* New RElease , Most_popular, card_carousel section END  */
 
 
@@ -485,7 +539,7 @@ footer .box li:hover,
 footer .box i:hover {
   color: #008BDC;
 }
-footer .container .box .flex{
+footer .container .box .flex2{
   display: flex;
 }
 
@@ -500,7 +554,7 @@ footer .container .box .flex{
 
 
 
-@media only screen and (max-width:650px) {
+@media only screen and (max-width:740px) {
 footer .container {
   padding: 10px;
   grid-template-columns: repeat(1, 1fr);
@@ -509,6 +563,10 @@ footer .container {
 footer .img img {
   width: 150px;
 }
+footer .logo img {
+  width: 150px;
+}
+
 
 }
 
@@ -775,36 +833,7 @@ footer .img img {
     transition: 1s;
 }
 
-@media screen and (max-width: 991px){
-    /* ipad, tablets */
-    .carousel .list .item{
-        width: 90%;
-    }
-   
-    
-}
-@media screen and (max-width: 767px){
-    /* mobile */
-    .carousel{
-        height: 600px;
-    }
-    .carousel .list .item{
-        width: 100%;
-        font-size: 10px;
-    }
-    
-    .carousel .list{
-        height: 100%;
-    }
-    .carousel .list .item:nth-child(2) .introduce{
-        width: 50%;
-    }
-    
-    .carousel .list .item img{
-        width: 40%;
-    }
 
-}
 .time{
     /* border: 2px solid black; */
     display: flex;
@@ -837,7 +866,53 @@ footer .img img {
   color: #008BDC;
  
 }
+@media screen and (max-width: 991px){
+  /* ipad, tablets */
+  .carousel .list .item{
+      width: 90%;
+  }
+ 
+  
+}
+@media screen and (max-width: 767px){
+  /* mobile */
+  .carousel{
+      height: 400px;
+  }
+  .carousel .list .item{
+      height: 65%;
+      width: 100%;
+      font-size: 10px;
+  }
+  .carousel .list .item .introduce .title{
+    font-size: 1em;
+  }
+  .carousel .list .item .introduce .topic{
+    font-size: 2em;
+    width: 300px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+  .carousel .list{
+      height: 100%;
+  }
+  .carousel .list .item:nth-child(2) .introduce{
+      width: 50%;
+  }
+  
+  .carousel .list .item img{
+      width: 50%;
+      margin-top: 25px;
+  }
+  .carousel .list .item .introduce .des {
+    display: none;
+  }
+  .flex{
+    width: 160px;
+    margin-top: 40px;
+  }
 
+}
 
 /* ------------------------carousel end */
 

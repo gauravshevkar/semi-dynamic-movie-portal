@@ -4,6 +4,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 body{
@@ -182,6 +183,51 @@ body{
 .bi-play-circle-fill{
   margin-right: 5px;
 }
+@media (max-width: 768px) {
+
+  .img-container{
+    background-color: #000;
+      width: 100%;
+      height: 350px;
+      
+  }
+  .detail h1{
+ 
+    font-size: 20px;
+    font-weight: 400;
+    
+    
+  }
+  .detail p{
+    font-size: 8px;
+    font-weight: 200;
+  
+  }
+  .data span{
+    margin-right: 30px;
+    font-weight: 200;
+    font-size: small;
+  }
+  .data span .imdb{
+    font-size: xx-small;
+  }
+  .detail{
+    position: absolute;
+    top: 80px;
+    color: #fff;  
+    width: 50%;
+    margin-left: 20px;
+    
+  }
+  .list-group-item{
+    padding: 5px 10px;
+    font-weight: normal; 
+    position: relative;
+    top: 40px;
+    left: 0;
+    
+  }
+}
 /* top banner section  end*/
 
 
@@ -231,7 +277,28 @@ body{
   color: white;
   font-size: 18px;
 }
-
+@media(max-width:767px){
+  .movie-poster img {
+    width: 80px;
+  }
+  .movie-poster{
+    height: 100px;
+  }
+  .rating{
+    display: none;
+  }
+  .movie-card {
+    position: relative;
+    top: 50px;
+    padding:  5px;
+  }
+  .movie-info h2 {
+    font-size: 15px;
+  }
+  .movie-info p {
+    font-size: 10px;
+  }
+}
 
 /* Trailer Section start  */
 .trailer{
@@ -245,6 +312,14 @@ body{
 .trailer iframe{
   width: 100%;
   height: 100%;
+}
+@media(max-width:767px){
+  .trailer{
+    top: 90px;
+    left: 12px;
+    width: 93%;
+    height: 250px;
+  }
 }
 /* T End  */
 
@@ -281,6 +356,23 @@ th {
   display: inline-block;
   text-align: center;
   border-radius: 5px;
+}
+@media (max-width: 768px) {
+  .download-btn {
+    padding: 5px 10px;
+    font-size: 18px;
+    margin-top: 150px;
+  }
+  table {
+    width: 50%;
+    margin-left: 5px;
+  }
+  th, td {
+    padding: 15px;
+    border-bottom: 1px solid #333;
+    font-size: 12px;
+  }
+
 }
 /* Download button and table  end */
 
